@@ -1,0 +1,22 @@
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+<title>dashboard</title>
+</head>
+<body>
+<h1>product Dashboard</h1>
+<table border="1">
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Category</th>
+<th>price</th>
+</tr>
+<tr th:each="product:${allProducts}">
+<td th:text="${product.id}">Product ID</td>
+<td th:text="${product.name}">Product Name</td>
+<td th:text="${product.category}">Product Category</td>
+<td th:text="${product.price}">Product Price</td>
+
+</tr>
+</table>
+</body>
