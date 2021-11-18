@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+        <!-- when only car n bike class and vehical is used -->
+        
+        <bean id="car" class="com.sound.Car">
+<!--         <bean id="bike" class="com.sound.Bike"> -->
+        
+         <!-- when only car   n engine class is used -->
+        
+<!--         <bean id="car" class="com.sound.Car"> -->
+<!--         <property name="brand" value="bmw"></property> -->
+<!--         <property name="engine" ref="engine1"></property></bean> -->
+        
+<!--        <bean  id="engine1" class="com.sound.Engine"> -->
+<!--         <property name="power" value="3000"></property> -->
+        </bean>
+</beans>
