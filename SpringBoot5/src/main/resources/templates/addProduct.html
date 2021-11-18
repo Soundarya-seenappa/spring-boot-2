@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+<title>Add product</title>
+</head>
+<body>
+<h1>enter Product details</h1>
+
+<form action="#" th:action="@{/addProduct}" method="post">
+
+
+
+Name: <input type="text" name="name"><br><br>
+Category:<select name="category">
+<option value="electronics">Electroins</option>
+<option value="Dogs">Dogs</option>
+<option value="shoes">Shoes</option>
+<option value="furniture">Furniture</option>
+</select><br><br>
+
+Price:<input type="text" name="price"><br><br>
+<input type="submit" value="ADD">|<input type="reset" value="RESET">
+</form>
+<hr>
+<a href ="/register">New user</a>
+</body>
+</html>
